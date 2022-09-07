@@ -50,7 +50,7 @@ $switch: (
 		&.round {
 			border-radius: deepGet($switch, 'radius');
 			&:before {
-				border-radius: deepGet($switch, 'radius') * ((deepGet($switch, 'height') - 2 * deepGet($switch, 'border')) / deepGet($switch, 'height'));
+				border-radius: calc(deepGet($switch, 'radius') * ((deepGet($switch, 'height') - 2 * deepGet($switch, 'border')) / deepGet($switch, 'height')));
 			}
 		}
 		position: absolute;

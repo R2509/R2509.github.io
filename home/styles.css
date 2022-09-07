@@ -1,5 +1,4 @@
-/* toggle switch code ends line 81 */
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Indie+Flower&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Patrick+Hand&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Shadows+Into+Light&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Indie+Flower&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Patrick+Hand&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 .switch {
   vertical-align: middle;
@@ -52,13 +51,16 @@
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+
 i {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   vertical-align: middle;
 }
+
 body {
   background-color: #20272f;
 }
+
 #nav {
   position: fixed;
   text-align: left;
@@ -78,10 +80,10 @@ body {
   background-color: #20202f;
   border: none;
   /*border-style: none solid;
-   border-width: 1px;
-   border-color: #5f5f6f; */
+  border-width: 1px;
+  border-color: #5f5f6f; */
   color: #ffffff;
-  font: 300 15px 'Open Sans', sans-serif;
+  font: 300 15px "Open Sans", sans-serif;
 }
 #nav button:not(#home) {
   float: left;
@@ -91,6 +93,7 @@ body {
   height: inherit;
   left: 50vw;
 }
+
 #sidebar {
   width: 0;
   height: 100%;
@@ -120,11 +123,12 @@ body {
   width: 100%;
   text-align: left;
   color: #ffffff;
-  font: 300 18px 'Open Sans', sans-serif;
+  font: 300 18px "Open Sans", sans-serif;
 }
 #sidebar #menu li div i, #sidebar #menu li button i {
   padding-right: 10px;
 }
+
 #overlay {
   width: 100%;
   height: 100%;
@@ -134,29 +138,32 @@ body {
   left: 0;
   transition-duration: 0.5s;
 }
+
 #main {
   margin-top: 50px;
   transition: margin-left 0.5s;
   padding: 16px;
-  font: 400 15px 'Open Sans', sans-serif;
+  font: 400 15px "Open Sans", sans-serif;
   color: #ffffff;
   text-align: center;
 }
 #main h1 {
-  font: 300 35px 'Fredoka', sans-serif;
+  font: 300 35px "Fredoka", sans-serif;
   color: #ffffff;
 }
 #main #projGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 210px);
+  grid-template-rows: repeat(auto-fill, 210px);
 }
 #main #projGrid div {
   width: 180px;
   height: 180px;
   padding: 10px;
-  margin: 5px 0;
   border-radius: 40px;
   background-color: #404e5e;
-  font: 300 15px 'Fredoka', sans-serif;
+  font: 300 15px "Fredoka", sans-serif;
   text-align: center;
 }
+
+/*# sourceMappingURL=styles.css.map */
